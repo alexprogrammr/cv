@@ -24,7 +24,7 @@ I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 maratho
 
 - Designed and built the **Call Protection** system from scratch in Go processing **2M+ calls/month**, reducing spam calls for users by **82%** and directly driving **50K+ new subscriptions** via launch featured by Robert Downey Jr.
 - Designed and built the **Email Protection** system handling **1M+ emails/day** in Gmail, Outlook, Yahoo inboxes - providing real-time scanning and threat filtering at scale
-- Redesigned distributed IMAP connections system after the initial architecture proved unstable under load - introduced sharding, load-balanced connection routing, graceful reconnection logic, and NAT gateway port exhaustion mitigation - now managing 10K+ concurrent persistent connections across multiple AWS availability zones with a proven scaling path to hundreds of thousands
+- Redesigned **distributed IMAP connections system** after the initial architecture proved unstable under load - introduced sharding, load-balanced connection routing, graceful reconnection logic, and NAT gateway port exhaustion mitigation - now managing **10K+ concurrent persistent connections** across multiple AWS availability zones with a proven scaling path to hundreds of thousands
 - Drove **features cost optimization** process at the application and infrastructure layers, saving **$500K+/year**
 - Leveraged **AI-augmented development workflows** to accelerate prototyping, delivery, and architectural exploration across the team
 - Introduced an **RFC process** that now governs **~10 fundamental engineering decisions per quarter**, aligning cross-functional teams around a shared technical vision

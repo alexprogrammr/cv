@@ -42,6 +42,15 @@ ${roles}
 function render(data: CV): string {
   const companies = data.experience.map(renderCompany).join("\n");
 
+  const projects = data.projects
+    .map(
+      (p) => `    <div class="project-entry">
+      <div class="project-name"><a href="${p.url}">${p.name}</a></div>
+      <div class="project-description">${p.description}</div>
+    </div>`,
+    )
+    .join("\n");
+
   const education = data.education
     .map(
       (edu) => `    <div class="education-entry">
@@ -113,6 +122,7 @@ ${css}
   <h2>Experience</h2>
 ${companies}
 
+${data.projects.length > 0 ? `  <h2>Projects</h2>\n${projects}\n` : ""}
   <h2>Education</h2>
 ${education}
 

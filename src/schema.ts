@@ -28,6 +28,12 @@ const CompanySchema = z.object({
   roles: z.array(RoleSchema),
 });
 
+const ProjectSchema = z.object({
+  name: z.string(),
+  description: z.string(),
+  url: z.string(),
+});
+
 const EducationSchema = z.object({
   institution: z.string(),
   field: z.string(),
@@ -62,6 +68,7 @@ const CVSchema = z.object({
   profiles: z.array(ProfileSchema),
   summary: z.string(),
   experience: z.array(CompanySchema),
+  projects: z.array(ProjectSchema),
   education: z.array(EducationSchema),
   patents: z.array(PatentSchema),
   certifications: z.array(CertificationSchema),

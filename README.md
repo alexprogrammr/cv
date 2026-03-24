@@ -74,6 +74,14 @@ Software Engineer with 10 years of experience designing and shipping high-scale 
 
 ---
 
+## Projects
+
+**[The Pathways - Infinite RPG](https://apps.apple.com/us/app/the-pathways-infinite-rpg/id6478637145)**
+
+AI-powered text-based adventure game with branching narratives across cyberpunk, fantasy, sci-fi worlds and beyond. Available in 16 languages on iPhone and iPad.
+
+---
+
 ## Education
 
 **National Technical University of Ukraine "Kyiv Polytechnic Institute"**

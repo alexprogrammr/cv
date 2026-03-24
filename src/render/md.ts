@@ -51,6 +51,16 @@ function render(data: CV): string {
     lines.push(renderCompany(company));
   }
 
+  if (data.projects.length > 0) {
+    lines.push("---\n");
+    lines.push("## Projects\n");
+
+    for (const project of data.projects) {
+      lines.push(`**[${project.name}](${project.url})**\n`);
+      lines.push(`${project.description}\n`);
+    }
+  }
+
   lines.push("---\n");
   lines.push("## Education\n");
 

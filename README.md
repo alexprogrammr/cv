@@ -2,7 +2,7 @@
 
 **Staff Engineer ∙ Product Engineering ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy**
 
-[me@chaikovskyi.dev](mailto:me@chaikovskyi.dev) · [linkedin](https://www.linkedin.com/in/oleksandr-chaikovskyi/) · [github](https://github.com/alexprogrammr/)
+[oleksandr@chaikovskyi.dev](mailto:oleksandr@chaikovskyi.dev) · [linkedin](https://www.linkedin.com/in/oleksandr-chaikovskyi/) · [github](https://github.com/alexprogrammr/)
 
 ---
 

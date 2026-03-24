@@ -4,7 +4,10 @@
   "tagline": "Staff Engineer ∙ Product Engineering ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy",
 
   "profiles": [
-    { "name": "me@chaikovskyi.dev", "url": "mailto:me@chaikovskyi.dev" },
+    {
+      "name": "oleksandr@chaikovskyi.dev",
+      "url": "mailto:oleksandr@chaikovskyi.dev"
+    },
     {
       "name": "linkedin",
       "url": "https://www.linkedin.com/in/oleksandr-chaikovskyi/"

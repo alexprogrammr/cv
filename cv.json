@@ -12,7 +12,7 @@
     { "name": "github", "url": "https://github.com/alexprogrammr/" }
   ],
 
-  "summary": "I'm a software engineer with 10 years of experience building high-scale distributed systems, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to Call and Email Protection features that drove 50K+ new subscriptions. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.\n\nI'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.",
+  "summary": "I'm a software engineer with 10 years of experience building high-scale distributed systems, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to AI-powered Call and Email Protection features that drove 50K+ new subscriptions. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.\n\nI'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.",
 
   "experience": [
     {
@@ -23,7 +23,7 @@
           "title": "Staff Engineer",
           "start": "2023-01",
           "bullets": [
-            "Designed and built the **Call Protection** system from scratch in Go processing **2M+ calls/month**, reducing spam calls for users by **82%** and directly driving **50K+ new subscriptions** via launch featured by Robert Downey Jr.",
+            "Designed and built the **AI-powered Call Protection** system from scratch in Go processing **2M+ calls/month**, reducing spam calls for users by **82%** and directly driving **50K+ new subscriptions** via launch featured by Robert Downey Jr.",
             "Designed and built the **Email Protection** system handling **1M+ emails/day** in Gmail, Outlook, Yahoo inboxes - providing real-time scanning and threat filtering at scale",
             "Redesigned **distributed IMAP connections system** after the initial architecture proved unstable under load - introduced sharding, load-balanced connection routing, graceful reconnection logic, and NAT gateway port exhaustion mitigation - now managing **10K+ concurrent persistent connections** across multiple AWS availability zones with a proven scaling path to hundreds of thousands",
             "Drove **features cost optimization** process at the application and infrastructure layers, saving **$500K+/year**",

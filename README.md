@@ -1,6 +1,6 @@
 # Oleksandr Chaikovskyi
 
-**Staff Engineer ∙ Software Architect ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy**
+**Staff Engineer ∙ Product Engineering ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy**
 
 [me@chaikovskyi.dev](mailto:me@chaikovskyi.dev) · [linkedin](https://www.linkedin.com/in/oleksandr-chaikovskyi/) · [github](https://github.com/alexprogrammr/)
 
@@ -8,7 +8,7 @@
 
 ## Summary
 
-I'm a software engineer with 10 years of experience designing and shipping high-scale distributed systems, cross-platform native libraries, and privacy/security products used by millions. Proven track record of taking complex technical problems from zero to production - from C++ cryptographic engine running on 6 platforms to Go-based Call and Email Protection systems processing millions of events daily. Personally designed infrastructure that drove 50K+ new subscriptions and saved $500K+/year in feature costs. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
+I'm a software engineer with 10 years of experience building high-scale distributed systems, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to Call and Email Protection features that drove 50K+ new subscriptions. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
 
 I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.
 
@@ -19,12 +19,12 @@ I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 maratho
 ### Aura
 *Jun 2020 - Present*
 
-#### Software Architect
+#### Staff Engineer
 *Jan 2023 - Present*
 
 - Designed and built the **Call Protection** system from scratch in Go processing **2M+ calls/month**, reducing spam calls for users by **82%** and directly driving **50K+ new subscriptions** via launch featured by Robert Downey Jr.
 - Designed and built the **Email Protection** system handling **1M+ emails/day** in Gmail, Outlook, Yahoo inboxes - providing real-time scanning and threat filtering at scale
-- Architected a **distributed auto-scaled workers system** managing **10K+ concurrent persistent IMAP connections** with proven scaling path to hundreds of thousands - solving sharding, load balancing, reconnection logic, and NAT gateway port exhaustion across multiple AWS availability zones and regions
+- Redesigned distributed IMAP connections system after the initial architecture proved unstable under load - introduced sharding, load-balanced connection routing, graceful reconnection logic, and NAT gateway port exhaustion mitigation - now managing 10K+ concurrent persistent connections across multiple AWS availability zones with a proven scaling path to hundreds of thousands
 - Drove **features cost optimization** process at the application and infrastructure layers, saving **$500K+/year**
 - Leveraged **AI-augmented development workflows** to accelerate prototyping, delivery, and architectural exploration across the team
 - Introduced an **RFC process** that now governs **~10 fundamental engineering decisions per quarter**, aligning cross-functional teams around a shared technical vision
@@ -59,7 +59,7 @@ I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 maratho
 #### iOS & macOS Software Engineer
 *Sep 2016 - Jun 2018 ∙ 1 yr 10 mos*
 
-- Shipped features across **5 products** (MacKeeper, MegaBackup, Chargeberry, TrackMyMac, FigLeaf) spanning macOS and iOS platforms
+- Shipped features across **5 products** - MacKeeper, MegaBackup, Chargeberry, TrackMyMac, FigLeaf - spanning macOS and iOS platforms
 - Diagnosed and fixed systemic stability issues on legacy macOS 10.6+, raising **crash-free rate to 99.8%**
 - Built a **generic networking framework** for back-end API communication and a **complex IPC system** for multi-process desktop applications
 - Established **CI/CD pipelines** for automated builds and releases

@@ -117,7 +117,7 @@ ${css}
   <div class="profiles">${profiles}</div>
 
   <h2>Summary</h2>
-  <p class="summary">${data.summary}</p>
+  ${data.summary.split("\n\n").map((p) => `<p class="summary">${p}</p>`).join("\n  ")}
 
   <h2>Experience</h2>
 ${companies}

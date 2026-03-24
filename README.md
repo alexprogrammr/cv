@@ -8,7 +8,9 @@
 
 ## Summary
 
-Software Engineer with 10 years of experience designing and shipping high-scale distributed systems, cross-platform native libraries, and privacy/security products used by millions. Proven track record of taking complex technical problems from zero to production - from C++ cryptographic engine running on 6 platforms to Go-based Call and Email Protection systems processing millions of events daily. Personally designed infrastructure that drove 50K+ new subscriptions and saved $500K+/year in feature costs. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
+I'm a software engineer with 10 years of experience designing and shipping high-scale distributed systems, cross-platform native libraries, and privacy/security products used by millions. Proven track record of taking complex technical problems from zero to production - from C++ cryptographic engine running on 6 platforms to Go-based Call and Email Protection systems processing millions of events daily. Personally designed infrastructure that drove 50K+ new subscriptions and saved $500K+/year in feature costs. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
+
+I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.
 
 ---
 

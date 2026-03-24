@@ -32,6 +32,7 @@ const ProjectSchema = z.object({
   name: z.string(),
   description: z.string(),
   url: z.string(),
+  techStack: z.array(z.string()),
 });
 
 const EducationSchema = z.object({

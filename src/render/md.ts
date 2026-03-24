@@ -58,6 +58,7 @@ function render(data: CV): string {
     for (const project of data.projects) {
       lines.push(`**[${project.name}](${project.url})**\n`);
       lines.push(`${project.description}\n`);
+      lines.push(`> **Tech:** ${project.techStack.join(" · ")}\n`);
     }
   }
 

@@ -141,7 +141,8 @@
     {
       "name": "The Pathways - Infinite RPG",
       "description": "AI-powered text-based adventure game with branching narratives across cyberpunk, fantasy, sci-fi worlds and beyond. Available in 16 languages on iPhone and iPad.",
-      "url": "https://apps.apple.com/us/app/the-pathways-infinite-rpg/id6478637145"
+      "url": "https://apps.apple.com/us/app/the-pathways-infinite-rpg/id6478637145",
+      "techStack": ["Flutter", "Bun", "Postgres", "Hetzner"]
     }
   ],
 

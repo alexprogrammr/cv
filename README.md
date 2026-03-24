@@ -82,6 +82,8 @@ I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 maratho
 
 AI-powered text-based adventure game with branching narratives across cyberpunk, fantasy, sci-fi worlds and beyond. Available in 16 languages on iPhone and iPad.
 
+> **Tech:** Flutter · Bun · Postgres · Hetzner
+
 ---
 
 ## Education

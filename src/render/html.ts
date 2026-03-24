@@ -47,6 +47,10 @@ function render(data: CV): string {
       (p) => `    <div class="project-entry">
       <div class="project-name"><a href="${p.url}">${p.name}</a></div>
       <div class="project-description">${p.description}</div>
+      <div class="tech">
+        <span class="tech-label">Tech: </span>
+        <span class="tech-list">${p.techStack.join(" ∙ ")}</span>
+      </div>
     </div>`,
     )
     .join("\n");

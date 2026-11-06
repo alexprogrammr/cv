@@ -10,7 +10,7 @@
 
 I'm a software engineer with 10 years of experience building high-scale distributed systems, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to AI-powered Call and Email Protection features that drove 50K+ new subscriptions. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
 
-I'm also an amateur endurance athlete. Finisher of 10+ half-marathons, 2 marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.
+I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.
 
 ---
 
@@ -118,6 +118,6 @@ Method, system and machine-readable data carrier, which are intended to classify
 
 **Endurance Sports**
 
-- 10+ times **half-marathon** finisher ∙ PB **1:38:57**
-- 2 times **marathon** finisher ∙ PB **3:50:43**
-- **Ironman 70.3** finisher ∙ PB **6:05:42**
+- 10+ times **half-marathon** finisher ∙ PB **1:35:55**
+- 3 times **marathon** finisher ∙ PB **3:35:16**
+- 2 times **Ironman 70.3** finisher ∙ PB **5:29:25**

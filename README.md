@@ -1,6 +1,6 @@
 # Oleksandr Chaikovskyi
 
-**Staff Engineer ∙ Product Engineering ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy**
+**Staff Engineer ∙ AI Platform ∙ Product Engineering ∙ Distributed & Cross-Platform Systems ∙ Security & Privacy**
 
 [oleksandr@chaikovskyi.dev](mailto:oleksandr@chaikovskyi.dev) · [linkedin](https://www.linkedin.com/in/oleksandr-chaikovskyi/) · [github](https://github.com/alexprogrammr/)
 
@@ -8,9 +8,9 @@
 
 ## Summary
 
-I'm a software engineer with 10 years of experience building high-scale distributed systems, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to AI-powered Call and Email Protection features that drove 50K+ new subscriptions. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership, team scaling, and AI-augmented development workflows.
+I'm a software engineer with 10 years of experience building high-scale distributed systems, AI platform infrastructure, cross-platform native libraries, and privacy/security products - all shipped to millions of users in consumer and OEM channels. Personally designed and shipped systems processing millions of events daily - from cross-platform zero-knowledge Password Manager to AI-powered Call and Email Protection features that drove 50K+ new subscriptions. Currently building the AI Platform that powers AI agents across the product - from unified data access to isolated, autoscaling agent sandboxes. Combines deep hands-on engineering (Go, TypeScript, Swift, C++, Python) with architectural leadership and team scaling.
 
-I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance.
+I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and Ironman 70.3 - on my way to ultra running and full Ironman distance. That is exactly why I started building [SUFR](https://sufr.app/) - an adaptive training platform for endurance athletes like me.
 
 ---
 
@@ -22,14 +22,13 @@ I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and
 #### Staff Engineer
 *Jan 2023 - Present*
 
+- Building the AI foundation for the product - designed and built the **Data API** giving AI agents and features unified access to product data, and the **Agent Sandbox** - isolated execution environments for AI agents with demand-driven **autoscaling** on ECS/EC2
 - Designed and built the **AI-powered Call Protection** system from scratch in Go processing **2M+ calls/month**, reducing spam calls for users by **82%** and directly driving **50K+ new subscriptions** via launch featured by Robert Downey Jr.
 - Designed and built the **Email Protection** system handling **1M+ emails/day** in Gmail, Outlook, Yahoo inboxes - providing real-time scanning and threat filtering at scale
 - Redesigned **distributed IMAP connections system** after the initial architecture proved unstable under load - introduced sharding, load-balanced connection routing, graceful reconnection logic, and NAT gateway port exhaustion mitigation - now managing **10K+ concurrent persistent connections** across multiple AWS availability zones with a proven scaling path to hundreds of thousands
 - Drove **features cost optimization** process at the application and infrastructure layers, saving **$500K+/year**
-- Leveraged **AI-augmented development workflows** to accelerate prototyping, delivery, and architectural exploration across the team
-- Introduced an **RFC process** that now governs **~10 fundamental engineering decisions per quarter**, aligning cross-functional teams around a shared technical vision
 
-> **Tech:** Go · TypeScript · AWS (ECS, EC2, Lambda, DynamoDB, RDS, SNS, SQS, SES, S3) · Terraform · Prometheus · Grafana · Postgres · Databricks · Claude Code
+> **Tech:** Go · Python · TypeScript · AWS (ECS, Lambda, RDS, DynamoDB, S3 Tables, Athena, SQS) · Terraform · Prometheus · Grafana · Postgres · Databricks · OpenAI · Anthropic · AWS Bedrock · OpenRouter · LangChain · MCP · LanceDB · DuckDB · Braintrust · Claude Code
 
 #### Tech Lead
 *Jun 2020 - Dec 2022 ∙ 2 yrs 7 mos*
@@ -41,6 +40,7 @@ I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and
 - Built an **automated bindings generation pipeline** using libclang that produces platform-specific bindings for all 6 targets - replacing days of manual integration work with a single CI job that runs on every commit
 - Compiled C++ core to **WebAssembly via Emscripten**, enabling the Password Manager to run natively in the browser with near-native performance
 - Conducted technical R&D in privacy and security - including secure inter-process communication (Noise protocol framework) and cryptographic scheme simplification that reduced sign-in friction while maintaining security guarantees
+- Introduced an **RFC process** that now governs **~10 fundamental engineering decisions per quarter**, aligning cross-functional teams around a shared technical vision
 
 > **Tech:** C++ · C# · JS/TS · Python · Emscripten · WebAssembly · SQLite · OpenSSL · libsodium · Clang · CMake
 
@@ -77,6 +77,12 @@ I'm also an amateur endurance athlete. Finisher of half-marathons, marathons and
 ---
 
 ## Projects
+
+**[SUFR](https://sufr.app/)**
+
+Adaptive training platform for endurance athletes - running, cycling, swimming and triathlon. Builds personalized, periodized plans around race calendars that adapt to how each athlete trains, recovers and performs, with Strava, Garmin and Apple Watch integrations.
+
+> **Tech:** Go · TypeScript · Postgres · Cloudflare · SwiftUI
 
 **[The Pathways - Infinite RPG](https://apps.apple.com/us/app/the-pathways-infinite-rpg/id6478637145)**
 

@@ -8,6 +8,10 @@ function bold(text: string): string {
   return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 }
 
+function links(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
 function renderRole(role: Role): string {
   const bullets = role.bullets
     .map(
@@ -123,7 +127,7 @@ ${css}
   <h2>Summary</h2>
   ${data.summary
     .split("\n\n")
-    .map((p) => `<p class="summary">${p}</p>`)
+    .map((p) => `<p class="summary">${links(p)}</p>`)
     .join("\n  ")}
 
   <h2>Experience</h2>
